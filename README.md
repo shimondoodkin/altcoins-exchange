@@ -1,7 +1,7 @@
 altcoins-exchange
 =================
 
-basic architecture:(based on message queue servers idea like zero mq)
+**basic architecture**:(based on message queue servers idea like zero mq)
 
 **matching engine** (with pair names as categories ) - take 1st select matching, 1st version implemented as two loops in javascript then can be reimplementd in c++. 
 
@@ -22,7 +22,7 @@ ask bid page(s)
 wallet page list of funds in every currency
 make deal api
 
-**deal execution**
+deal execution
 ```text
 0 log deal settings.
 - is any wallet locked? if locked wait (skip)
@@ -34,6 +34,7 @@ make deal api
 3 unlock
 - archive deal price for chart view later
 ```
+
 server recovery method:
 look in locked unfinished deals, ask wallet states, guess deal state by it. complete the deals transactions.
 
