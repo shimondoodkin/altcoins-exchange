@@ -3,7 +3,7 @@ altcoins-exchange
 
 **basic architecture**:(based on message queue servers idea like zero mq + nodejs)
 
-**matching engine** (with pair names as categories ) - take 1st select matching, 1st version implemented as select from database and two loops in javascript then can be reimplementd in c++. 
+**matching engine** (with pair names as categories ) - take 1st select matching, 1st version implemented as select from database and two loops in javascript then can be reimplementd in c++.
 
 **transaction makers** ( move money from one wallet to other wallet in a transaction ) 
 in memory transactional database +  front end : make deal:
