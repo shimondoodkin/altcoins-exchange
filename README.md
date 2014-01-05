@@ -19,8 +19,9 @@ text files of last deals per user underscore curency pair downloadable freely or
 login with google.
 list of currencies as links
 ask bid page(s)
-wallet page list of funds in every currency
+wallet page list of funds in every currency + withdraw
 make deal api
+withdraw api
 
 deal execution
 ```text
