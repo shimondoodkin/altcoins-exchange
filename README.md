@@ -46,3 +46,8 @@ and load the transactions list into memory searchable database and on server loa
 send money back function. 
 on sign up for each currency the user is asked to type a return wallet address with sending address as default.
 
+
+if we want to add money this looks good:
+https://github.com/iamtheschmitzer?tab=repositories
+http://nashx.com/HowItWorks
+https://gitorious.org/intersango/bitcoind/source/00c0126dd92cec4ad8428d4317467a1588d8763e:
