@@ -9,6 +9,7 @@ altcoins-exchange
 in memory transactional database +  front end : make deal:
 
 **live wallets for each currency** ( addresses names are of user wallet addresses or of usernames ) - coind + its front end (list wallets, list) function: move coins to address
+https://github.com/bitfloor/node-bitcoin
 
 **deals archive server** with both parities wallet states as serialize before and after
 log last 24 hours only in memory database
